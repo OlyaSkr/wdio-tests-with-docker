@@ -34,6 +34,6 @@
     "docker:up": "docker compose up -d",
     "docker:down": "docker compose down",
     "test:docker": "docker compose run --rm wdio-tests npx wdio run config/wdio.docker.conf.js",
-    "test:docker:build": "docker compose build wdio-tests && docker-compose run wdio-tests npx wdio run config/wdio.docker.conf.js"
+    "test:docker:build": "docker compose build wdio-tests && docker compose run wdio-tests npx wdio run config/wdio.docker.conf.js"
   }
 }
