@@ -31,9 +31,9 @@
     "clean:allure": "rimraf allure-results allure-report",
     "allure:report:generate": "allure generate ./allure-results --clean",
     "allure:report:open": "npx allure open allure-report",
-    "docker:up": "docker-compose up -d",
-    "docker:down": "docker-compose down",
-    "test:docker": "docker-compose run --rm wdio-tests npx wdio run config/wdio.docker.conf.js",
-    "test:docker:build": "docker-compose build wdio-tests && docker-compose run wdio-tests npx wdio run config/wdio.docker.conf.js"
+    "docker:up": "docker compose up -d",
+    "docker:down": "docker compose down",
+    "test:docker": "docker compose run --rm wdio-tests npx wdio run config/wdio.docker.conf.js",
+    "test:docker:build": "docker compose build wdio-tests && docker-compose run wdio-tests npx wdio run config/wdio.docker.conf.js"
   }
 }
