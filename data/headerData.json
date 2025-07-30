@@ -1,0 +1,189 @@
+{
+  "dropdownIndexes": {
+    "platform": 0,
+    "useCases": 1,
+    "resources": 2,
+    "pricing": 3
+  },
+  "dropdownMenuTypes": {
+    "platform": "platform",
+    "useCases": "useCases",
+    "resources": "resources",
+    "pricing": "pricing",
+    "businessTypes": "businessTypes"
+  },
+  "platformChannelsDropdownItems": [
+    {
+      "text": "Messaging",
+      "expectedUrlPart": "/sms/overview/",
+      "expectedTitle": "SMS Platform for Verification and Customer Engagement | Plivo"
+    },
+    {
+      "text": "Voice",
+      "expectedUrlPart": "/voice/overview/",
+      "expectedTitle": "Plivo AI Voice Agents | Automate All Your Customer Interactions on Voice"
+    },
+    {
+      "text": "WhatsApp",
+      "expectedUrlPart": "/whatsapp-ai-agents/",
+      "expectedTitle": "Plivo WhatsApp AI Agents | Automate Customer Conversations & Engagement"
+    }
+  ],
+  "useCasesDropdownItems": [
+    {
+      "text": "AI Voice Agents",
+      "expectedUrlPart": "/ai-voice-agents/",
+      "expectedTitle": "Launch Context-Aware AI Voice Bots with Plivo | Quick Setup"
+    },
+    {
+      "text": "Call Forwarding",
+      "expectedUrlPart": "/use-case/call-forwarding-service/",
+      "expectedTitle": "Call Forwarding Service for Business | Plivo"
+    },
+    {
+      "text": "Cloud IVR",
+      "expectedUrlPart": "/use-case/ivr/",
+      "expectedTitle": "Use Case Interactive Voice Response (IVR) | Plivo"
+    },
+    {
+      "text": "Number Masking",
+      "expectedUrlPart": "/use-case/number-masking/",
+      "expectedTitle": "Phone Number Masking- Protect Phone Number Privacy with Number Masking | Plivo"
+    },
+    {
+      "text": "2FA/OTP",
+      "expectedUrlPart": "/use-case/two-factor-authentication/",
+      "expectedTitle": "2FA/OTP"
+    },
+    {
+      "text": "Alerts/Notifications",
+      "expectedUrlPart": "/use-case/alerts-notifications/",
+      "expectedTitle": "Account Alerts and Delivery Notifications | Plivo"
+    },
+    {
+      "text": "SMS Marketing",
+      "expectedUrlPart": "/use-case/sms-marketing/",
+      "expectedTitle": "SMS Marketing Use Cases | Plivo"
+    },
+    {
+      "text": "Voice Notifications",
+      "expectedUrlPart": "/use-case/voice-notifications/",
+      "expectedTitle": "Voice Notifications & Alerts - Voice API for Business | Plivo"
+    }
+  ],
+  "industriesDropdownItems": [
+    {
+      "text": "Healthcare",
+      "expectedUrlPart": "/use-case/healthcare-api/",
+      "expectedTitle": "Voice and Messaging API Solutions for Healthcare Communication"
+    },
+    {
+      "text": "Hospitality",
+      "expectedUrlPart": "/use-case/hospitality-travel/",
+      "expectedTitle": "Hospitality & Travel Communication APIs | Plivo"
+    },
+    {
+      "text": "Government",
+      "expectedUrlPart": "/use-case/government/",
+      "expectedTitle": "Voice and Messaging API Solutions for Government Messages"
+    },
+    {
+      "text": "Finance",
+      "expectedUrlPart": "/use-case/financial-services-api/",
+      "expectedTitle": "Voice and SMS API for banking and financial services"
+    },
+    {
+      "text": "Retail",
+      "expectedUrlPart": "/use-case/retail-api/",
+      "expectedTitle": "Retail and E-commerce Communication APIs | Plivo"
+    }
+  ],
+  "resourcesDropdownItems": [
+    {
+      "text": "Customers",
+      "expectedUrlPart": "/customers/",
+      "expectedTitle": "Customer Stories | Plivo"
+    },
+    {
+      "text": "Content Library",
+      "expectedUrlPart": "/resources/",
+      "expectedTitle": "Guides, Ebooks, and Other Resources | Plivo Content Library"
+    },
+    {
+      "text": "Documentation",
+      "expectedUrlPart": "/docs/",
+      "expectedTitle": "Get Started with PHP - Plivo"
+    },
+
+    {
+      "text": "Blog",
+      "expectedUrlPart": "/blog/",
+      "expectedTitle": "Plivo Blog | News, Industry Trends and Analysis, and Best Practices by the Plivo Team"
+    },
+    {
+      "text": "Product Updates",
+      "expectedUrlPart": "/changelog/",
+      "expectedTitle": "API - Product updates"
+    }
+  ],
+  "pricingDropdownItems": [
+    {
+      "text": "SMS API",
+      "expectedUrlPart": "/sms/pricing/{region}/",
+      "expectedTitle": "SMS Messaging API Pricing - {country} | Plivo"
+    },
+    {
+      "text": "Voice API",
+      "expectedUrlPart": "/voice/pricing/{region}/",
+      "expectedTitle": "Voice Pricing in {country} | Plivo"
+    },
+    {
+      "text": "WhatsApp Business API",
+      "expectedUrlPart": "/whatsapp/pricing/{region}/",
+      "expectedTitle": "WhatsApp Business Pricing for {country} | Simple & Transparent Rates by Plivo"
+    },
+
+    {
+      "text": "Verify API",
+      "expectedUrlPart": "/verify/pricing/",
+      "expectedTitle": "Get Plivo Verify API with Fraud Shield | $0 Verification, Channel-Based Pricing"
+    },
+    {
+      "text": "Phone Numbers",
+      "expectedUrlPart": "/virtual-phone-numbers/pricing/{region}/",
+      "expectedTitle": "Phone Number Pricing — Long Code, Toll-Free, Short Code - {country} | Plivo"
+    },
+    {
+      "text": "Zentrunk SIP Trunking",
+      "expectedUrlPart": "/sip-trunking/pricing/{region}/",
+      "expectedTitle": "SIP Trunking Pricing in {country} | Plivo"
+    },
+    {
+      "text": "Support Plans",
+      "expectedUrlPart": "/support-plans/",
+      "expectedTitle": "Premium Support Plans | Plivo"
+    },
+    {
+      "text": "View All Pricing",
+      "expectedUrlPart": "/pricing/",
+      "expectedTitle": "Competitive pay-as-you-go pricing with volume discounts at scale | Plivo"
+    }
+  ],
+  "businessTypesDropdownItems": [
+    {
+      "text": "Enterprise",
+      "expectedUrlPart": "/use-case/enterprise/",
+      "expectedTitle": "Enterprise SMS API and Messaging Solutions | Plivo"
+    },
+    {
+      "text": "Startup",
+      "expectedUrlPart": "/use-case/startup/",
+      "expectedTitle": "Bulk SMS and Voice APIs for Startup Businesses | Plivo"
+    },
+    {
+      "text": "Nonprofit",
+      "expectedUrlPart": "/use-case/nonprofit/",
+      "expectedTitle": "Bulk SMS and Voice APIs for Nonprofit Organizations | Plivo"
+    }
+  ]
+}
