@@ -1,0 +1,671 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "children" : [ {
+    "name" : ".app.test.specs",
+    "children" : [ {
+      "name" : "footer.spec.js",
+      "children" : [ {
+        "name" : "Verify section titles ",
+        "uid" : "822a10e16f644bd8",
+        "parentUid" : "f8c752fed90d4ba8304c6975e3b8f94a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1753888781293,
+          "stop" : 1753888881338,
+          "duration" : 100045
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "chrome-138.0.7204.157" ]
+      }, {
+        "name" : "Verify item titles in Products section ",
+        "uid" : "2dbba495781f9019",
+        "parentUid" : "f8c752fed90d4ba8304c6975e3b8f94a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1753888786079,
+          "stop" : 1753888881337,
+          "duration" : 95258
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "chrome-138.0.7204.157" ]
+      }, {
+        "name" : "Verify item titles in Use Cases section ",
+        "uid" : "d2cb9042afe2ff08",
+        "parentUid" : "f8c752fed90d4ba8304c6975e3b8f94a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1753888789819,
+          "stop" : 1753888881337,
+          "duration" : 91518
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "chrome-138.0.7204.157" ]
+      }, {
+        "name" : "Verify item titles in Developers section ",
+        "uid" : "687fc2f1a46b039c",
+        "parentUid" : "f8c752fed90d4ba8304c6975e3b8f94a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1753888793958,
+          "stop" : 1753888881337,
+          "duration" : 87379
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "chrome-138.0.7204.157" ]
+      }, {
+        "name" : "Verify item titles in Resources section ",
+        "uid" : "c5cc756f2d035fe5",
+        "parentUid" : "f8c752fed90d4ba8304c6975e3b8f94a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1753888797967,
+          "stop" : 1753888881337,
+          "duration" : 83370
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "chrome-138.0.7204.157" ]
+      }, {
+        "name" : "Verify item titles in Company section ",
+        "uid" : "1a3c5a73a5826a93",
+        "parentUid" : "f8c752fed90d4ba8304c6975e3b8f94a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1753888801776,
+          "stop" : 1753888881337,
+          "duration" : 79561
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "chrome-138.0.7204.157" ]
+      }, {
+        "name" : "Should open each link in Products section",
+        "uid" : "2e0ba06aba6bf8f0",
+        "parentUid" : "f8c752fed90d4ba8304c6975e3b8f94a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1753888805683,
+          "stop" : 1753888881337,
+          "duration" : 75654
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "chrome-138.0.7204.157" ]
+      }, {
+        "name" : "Should open each link in Use Cases section",
+        "uid" : "8afb2e28c1a2b903",
+        "parentUid" : "f8c752fed90d4ba8304c6975e3b8f94a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1753888817272,
+          "stop" : 1753888881337,
+          "duration" : 64065
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "chrome-138.0.7204.157" ]
+      }, {
+        "name" : "Should open each link in Developers section",
+        "uid" : "d00202a37017b12d",
+        "parentUid" : "f8c752fed90d4ba8304c6975e3b8f94a",
+        "status" : "failed",
+        "time" : {
+          "start" : 1753888827262,
+          "stop" : 1753888843898,
+          "duration" : 16636
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "chrome-138.0.7204.157" ]
+      }, {
+        "name" : "Should open each link in Resources section",
+        "uid" : "3ca4a719cdf011fe",
+        "parentUid" : "f8c752fed90d4ba8304c6975e3b8f94a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1753888844039,
+          "stop" : 1753888881336,
+          "duration" : 37297
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "chrome-138.0.7204.157" ]
+      }, {
+        "name" : "Should open each link in Company section",
+        "uid" : "a6ba3e3f17b49c5f",
+        "parentUid" : "f8c752fed90d4ba8304c6975e3b8f94a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1753888860055,
+          "stop" : 1753888881336,
+          "duration" : 21281
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "chrome-138.0.7204.157" ]
+      }, {
+        "name" : "Verify footer logo link",
+        "uid" : "afbca7f0cb27e2ad",
+        "parentUid" : "f8c752fed90d4ba8304c6975e3b8f94a",
+        "status" : "failed",
+        "time" : {
+          "start" : 1753888869713,
+          "stop" : 1753888881335,
+          "duration" : 11622
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "chrome-138.0.7204.157" ]
+      }, {
+        "name" : "Verify footer nav links",
+        "uid" : "25e9dccb0fc0dc65",
+        "parentUid" : "f8c752fed90d4ba8304c6975e3b8f94a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1753888873474,
+          "stop" : 1753888873475,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "chrome-138.0.7204.157" ]
+      }, {
+        "name" : "Verify section titles ",
+        "uid" : "3a0ce683a49fe0d2",
+        "parentUid" : "f8c752fed90d4ba8304c6975e3b8f94a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1753889316521,
+          "stop" : 1753889410449,
+          "duration" : 93928
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "firefox-140.0.4" ]
+      }, {
+        "name" : "Verify item titles in Products section ",
+        "uid" : "d1a9f2461b2e12a7",
+        "parentUid" : "f8c752fed90d4ba8304c6975e3b8f94a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1753889319112,
+          "stop" : 1753889410449,
+          "duration" : 91337
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "firefox-140.0.4" ]
+      }, {
+        "name" : "Verify item titles in Use Cases section ",
+        "uid" : "da296d439ab2736d",
+        "parentUid" : "f8c752fed90d4ba8304c6975e3b8f94a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1753889321262,
+          "stop" : 1753889410448,
+          "duration" : 89186
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "firefox-140.0.4" ]
+      }, {
+        "name" : "Verify item titles in Developers section ",
+        "uid" : "6e378234724a42f",
+        "parentUid" : "f8c752fed90d4ba8304c6975e3b8f94a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1753889323445,
+          "stop" : 1753889410448,
+          "duration" : 87003
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "firefox-140.0.4" ]
+      }, {
+        "name" : "Verify item titles in Resources section ",
+        "uid" : "14dbdbbb7143edb5",
+        "parentUid" : "f8c752fed90d4ba8304c6975e3b8f94a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1753889325842,
+          "stop" : 1753889410448,
+          "duration" : 84606
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "firefox-140.0.4" ]
+      }, {
+        "name" : "Verify item titles in Company section ",
+        "uid" : "1ecccc4aaa2762a6",
+        "parentUid" : "f8c752fed90d4ba8304c6975e3b8f94a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1753889328023,
+          "stop" : 1753889410448,
+          "duration" : 82425
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "firefox-140.0.4" ]
+      }, {
+        "name" : "Should open each link in Products section",
+        "uid" : "f6f4d99fc41fde2e",
+        "parentUid" : "f8c752fed90d4ba8304c6975e3b8f94a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1753889330064,
+          "stop" : 1753889410448,
+          "duration" : 80384
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "firefox-140.0.4" ]
+      }, {
+        "name" : "Should open each link in Use Cases section",
+        "uid" : "5498f69523cf69b8",
+        "parentUid" : "f8c752fed90d4ba8304c6975e3b8f94a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1753889339884,
+          "stop" : 1753889410448,
+          "duration" : 70564
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "firefox-140.0.4" ]
+      }, {
+        "name" : "Should open each link in Developers section",
+        "uid" : "9de8e02c1db9ded7",
+        "parentUid" : "f8c752fed90d4ba8304c6975e3b8f94a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1753889346473,
+          "stop" : 1753889410448,
+          "duration" : 63975
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "firefox-140.0.4" ]
+      }, {
+        "name" : "Should open each link in Resources section",
+        "uid" : "bdd733f96b5bd591",
+        "parentUid" : "f8c752fed90d4ba8304c6975e3b8f94a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1753889373170,
+          "stop" : 1753889410447,
+          "duration" : 37277
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "firefox-140.0.4" ]
+      }, {
+        "name" : "Should open each link in Company section",
+        "uid" : "c452fc7f51d1245",
+        "parentUid" : "f8c752fed90d4ba8304c6975e3b8f94a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1753889389403,
+          "stop" : 1753889410447,
+          "duration" : 21044
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "firefox-140.0.4" ]
+      }, {
+        "name" : "Verify footer logo link",
+        "uid" : "3c11d191716df46d",
+        "parentUid" : "f8c752fed90d4ba8304c6975e3b8f94a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1753889395041,
+          "stop" : 1753889410447,
+          "duration" : 15406
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "firefox-140.0.4" ]
+      }, {
+        "name" : "Verify footer nav links",
+        "uid" : "aab8948ac30e9477",
+        "parentUid" : "f8c752fed90d4ba8304c6975e3b8f94a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1753889397502,
+          "stop" : 1753889410447,
+          "duration" : 12945
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "firefox-140.0.4" ]
+      } ],
+      "uid" : "footer.spec.js"
+    }, {
+      "name" : "header.spec.js",
+      "children" : [ {
+        "name" : "Should display the header and logo",
+        "uid" : "c5f9c4e57f58732b",
+        "parentUid" : "cef1e551a0664cbc5a2581535bbc37f5",
+        "status" : "passed",
+        "time" : {
+          "start" : 1753888886836,
+          "stop" : 1753888909328,
+          "duration" : 22492
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "chrome-138.0.7204.157" ]
+      }, {
+        "name" : "Verify Channels items in the Platform dropdown menu",
+        "uid" : "a2c0093c7422652b",
+        "parentUid" : "cef1e551a0664cbc5a2581535bbc37f5",
+        "status" : "passed",
+        "time" : {
+          "start" : 1753888909567,
+          "stop" : 1753888971132,
+          "duration" : 61565
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "chrome-138.0.7204.157" ]
+      }, {
+        "name" : "Verify Use Cases items in the Use Cases dropdown menu",
+        "uid" : "343d59f76c9e0679",
+        "parentUid" : "cef1e551a0664cbc5a2581535bbc37f5",
+        "status" : "passed",
+        "time" : {
+          "start" : 1753888971596,
+          "stop" : 1753889040106,
+          "duration" : 68510
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "chrome-138.0.7204.157" ]
+      }, {
+        "name" : "Verify Industries items in the Use Cases dropdown menu",
+        "uid" : "a5a83771bf052082",
+        "parentUid" : "cef1e551a0664cbc5a2581535bbc37f5",
+        "status" : "passed",
+        "time" : {
+          "start" : 1753889040383,
+          "stop" : 1753889098017,
+          "duration" : 57634
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "chrome-138.0.7204.157" ]
+      }, {
+        "name" : "Verify items in the Resources dropdown menu",
+        "uid" : "b4e8a1dc0f42bdbc",
+        "parentUid" : "cef1e551a0664cbc5a2581535bbc37f5",
+        "status" : "passed",
+        "time" : {
+          "start" : 1753889098290,
+          "stop" : 1753889148468,
+          "duration" : 50178
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "chrome-138.0.7204.157" ]
+      }, {
+        "name" : "Verify Business Types items in the Use Cases dropdown menu",
+        "uid" : "21f3754c69f68823",
+        "parentUid" : "cef1e551a0664cbc5a2581535bbc37f5",
+        "status" : "passed",
+        "time" : {
+          "start" : 1753889148696,
+          "stop" : 1753889216411,
+          "duration" : 67715
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "chrome-138.0.7204.157" ]
+      }, {
+        "name" : "Should display the header and logo",
+        "uid" : "975ca6e6f7660b89",
+        "parentUid" : "cef1e551a0664cbc5a2581535bbc37f5",
+        "status" : "passed",
+        "time" : {
+          "start" : 1753889415483,
+          "stop" : 1753889424130,
+          "duration" : 8647
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "firefox-140.0.4" ]
+      }, {
+        "name" : "Verify Channels items in the Platform dropdown menu",
+        "uid" : "20b688012af4e168",
+        "parentUid" : "cef1e551a0664cbc5a2581535bbc37f5",
+        "status" : "passed",
+        "time" : {
+          "start" : 1753889424262,
+          "stop" : 1753889450612,
+          "duration" : 26350
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "firefox-140.0.4" ]
+      }, {
+        "name" : "Verify Use Cases items in the Use Cases dropdown menu",
+        "uid" : "79f2246cd5c8c18d",
+        "parentUid" : "cef1e551a0664cbc5a2581535bbc37f5",
+        "status" : "passed",
+        "time" : {
+          "start" : 1753889450697,
+          "stop" : 1753889507439,
+          "duration" : 56742
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "firefox-140.0.4" ]
+      }, {
+        "name" : "Verify Industries items in the Use Cases dropdown menu",
+        "uid" : "9a5116dc528bac74",
+        "parentUid" : "cef1e551a0664cbc5a2581535bbc37f5",
+        "status" : "passed",
+        "time" : {
+          "start" : 1753889507534,
+          "stop" : 1753889544850,
+          "duration" : 37316
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "firefox-140.0.4" ]
+      }, {
+        "name" : "Verify items in the Resources dropdown menu",
+        "uid" : "eeea113b4c04934a",
+        "parentUid" : "cef1e551a0664cbc5a2581535bbc37f5",
+        "status" : "passed",
+        "time" : {
+          "start" : 1753889545035,
+          "stop" : 1753889585786,
+          "duration" : 40751
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "firefox-140.0.4" ]
+      }, {
+        "name" : "Verify Business Types items in the Use Cases dropdown menu",
+        "uid" : "d68c7061615a0807",
+        "parentUid" : "cef1e551a0664cbc5a2581535bbc37f5",
+        "status" : "passed",
+        "time" : {
+          "start" : 1753889585976,
+          "stop" : 1753889611470,
+          "duration" : 25494
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "firefox-140.0.4" ]
+      } ],
+      "uid" : "header.spec.js"
+    }, {
+      "name" : "talkToSales.spec.js",
+      "children" : [ {
+        "name" : "Verify Get started section display",
+        "uid" : "46802f0b6d8b4e16",
+        "parentUid" : "520dc48ff6f891ff7edc873ba14af115",
+        "status" : "passed",
+        "time" : {
+          "start" : 1753889219266,
+          "stop" : 1753889222590,
+          "duration" : 3324
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "chrome-138.0.7204.157" ]
+      }, {
+        "name" : "Verify presence of expected logos in DOM",
+        "uid" : "8a2e41355be7ae4b",
+        "parentUid" : "520dc48ff6f891ff7edc873ba14af115",
+        "status" : "passed",
+        "time" : {
+          "start" : 1753889222591,
+          "stop" : 1753889224726,
+          "duration" : 2135
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "chrome-138.0.7204.157" ]
+      }, {
+        "name" : "Verify feature section",
+        "uid" : "d90ac3da0f436667",
+        "parentUid" : "520dc48ff6f891ff7edc873ba14af115",
+        "status" : "passed",
+        "time" : {
+          "start" : 1753889224729,
+          "stop" : 1753889227769,
+          "duration" : 3040
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "chrome-138.0.7204.157" ]
+      }, {
+        "name" : "Verify metric section",
+        "uid" : "30910525bae96d12",
+        "parentUid" : "520dc48ff6f891ff7edc873ba14af115",
+        "status" : "passed",
+        "time" : {
+          "start" : 1753889227771,
+          "stop" : 1753889230472,
+          "duration" : 2701
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "chrome-138.0.7204.157" ]
+      }, {
+        "name" : "Verify What our customers say about us section",
+        "uid" : "917d19705dd74500",
+        "parentUid" : "520dc48ff6f891ff7edc873ba14af115",
+        "status" : "passed",
+        "time" : {
+          "start" : 1753889230476,
+          "stop" : 1753889267449,
+          "duration" : 36973
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "chrome-138.0.7204.157" ]
+      }, {
+        "name" : "Verify FAQ section",
+        "uid" : "f8af2baa5533e3ef",
+        "parentUid" : "520dc48ff6f891ff7edc873ba14af115",
+        "status" : "passed",
+        "time" : {
+          "start" : 1753889267451,
+          "stop" : 1753889269596,
+          "duration" : 2145
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "chrome-138.0.7204.157" ]
+      }, {
+        "name" : "Verify Get started section display",
+        "uid" : "b05a79ed90df2fa7",
+        "parentUid" : "520dc48ff6f891ff7edc873ba14af115",
+        "status" : "passed",
+        "time" : {
+          "start" : 1753889625340,
+          "stop" : 1753889626810,
+          "duration" : 1470
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "firefox-140.0.4" ]
+      }, {
+        "name" : "Verify presence of expected logos in DOM",
+        "uid" : "54dc1ff9d8f52bf7",
+        "parentUid" : "520dc48ff6f891ff7edc873ba14af115",
+        "status" : "passed",
+        "time" : {
+          "start" : 1753889626811,
+          "stop" : 1753889627735,
+          "duration" : 924
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "firefox-140.0.4" ]
+      }, {
+        "name" : "Verify feature section",
+        "uid" : "9937e1f90345c668",
+        "parentUid" : "520dc48ff6f891ff7edc873ba14af115",
+        "status" : "passed",
+        "time" : {
+          "start" : 1753889627736,
+          "stop" : 1753889628821,
+          "duration" : 1085
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "firefox-140.0.4" ]
+      }, {
+        "name" : "Verify metric section",
+        "uid" : "8636d9ffc531adba",
+        "parentUid" : "520dc48ff6f891ff7edc873ba14af115",
+        "status" : "passed",
+        "time" : {
+          "start" : 1753889628822,
+          "stop" : 1753889630384,
+          "duration" : 1562
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "firefox-140.0.4" ]
+      }, {
+        "name" : "Verify What our customers say about us section",
+        "uid" : "645f6dc9c718053e",
+        "parentUid" : "520dc48ff6f891ff7edc873ba14af115",
+        "status" : "broken",
+        "time" : {
+          "start" : 1753889630385,
+          "stop" : 1753889632900,
+          "duration" : 2515
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "firefox-140.0.4" ]
+      }, {
+        "name" : "Verify FAQ section",
+        "uid" : "99b5b91feab29d98",
+        "parentUid" : "520dc48ff6f891ff7edc873ba14af115",
+        "status" : "passed",
+        "time" : {
+          "start" : 1753889632903,
+          "stop" : 1753889633890,
+          "duration" : 987
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "firefox-140.0.4" ]
+      } ],
+      "uid" : "talkToSales.spec.js"
+    } ],
+    "uid" : ".app.test.specs"
+  } ],
+  "name" : "packages"
+}
