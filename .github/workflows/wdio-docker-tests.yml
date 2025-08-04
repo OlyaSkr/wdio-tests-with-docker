@@ -34,7 +34,7 @@ jobs:
 
       - name: Run tests
         continue-on-error: true
-        run: npm run test:docker:build
+        run: npm run test:docker
 
       - name: Generate Allure report
         if: always()
