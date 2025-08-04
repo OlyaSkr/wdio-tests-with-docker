@@ -3,45 +3,24 @@
   "children" : [ {
     "name" : "Product defects",
     "children" : [ {
-      "name" : "expect(received).toContain(expected) // indexOf\n\nExpected substring: \"Plivo support\"\nReceived string:    \"Just a moment...\"",
+      "name" : "expect(received).toContain(expected) // indexOf\n\nExpected substring: \"Submit a request – Plivo support\"\nReceived string:    \"Just a moment...\"",
       "children" : [ {
-        "name" : "Should open each link in Developers section",
-        "uid" : "3a0f514de3c0c97b",
-        "parentUid" : "a941124d522a8a7b67248dd768ea86a2",
+        "name" : "Verify footer logo link",
+        "uid" : "142c35249f933f8d",
+        "parentUid" : "562cf8c79af62ad2061bbfab83348492",
         "status" : "failed",
         "time" : {
-          "start" : 1754315991224,
-          "stop" : 1754316007630,
-          "duration" : 16406
+          "start" : 1754317017535,
+          "stop" : 1754317029456,
+          "duration" : 11921
         },
         "flaky" : true,
         "newFailed" : true,
         "parameters" : [ "chrome-138.0.7204.157" ]
       } ],
-      "uid" : "a941124d522a8a7b67248dd768ea86a2"
+      "uid" : "562cf8c79af62ad2061bbfab83348492"
     } ],
     "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
-  }, {
-    "name" : "Test defects",
-    "children" : [ {
-      "name" : "Timeout of 60000ms exceeded. The execution in the test \"Header Navigation Verify Use Cases items in the Use Cases dropdown menu\" took too long. Try to reduce the run time or increase your timeout for test specs (https://webdriver.io/docs/timeouts). (/app/test/specs/header.spec.js)",
-      "children" : [ {
-        "name" : "Verify Use Cases items in the Use Cases dropdown menu",
-        "uid" : "cb22f0503122c04",
-        "parentUid" : "4b63dd9d96151b3e287944093bb96754",
-        "status" : "broken",
-        "time" : {
-          "start" : 1754316130140,
-          "stop" : 1754316195424,
-          "duration" : 65284
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "chrome-138.0.7204.157" ]
-      } ],
-      "uid" : "4b63dd9d96151b3e287944093bb96754"
-    } ],
-    "uid" : "bdbf199525818fae7a8651db9eafe741"
   } ],
   "name" : "categories"
 }
