@@ -1,0 +1,26 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "WebDriverError: Element <a class=\"testimonial_slider-button swiper-next w-inline-block\" href=\"#\"> is not clickable at point (1540,51) because another element <a class=\"button-v2 is-nav w-inline-block\" href=\"/request-trial/\"> obscures it when running \"element/9d290835-0ef2-4f78-8c30-2e01ff96965c/click\" with method \"POST\"",
+      "children" : [ {
+        "name" : "Verify What our customers say about us section",
+        "uid" : "8f89728af6478515",
+        "parentUid" : "db8a6ee7d0df89544972d18e66ca3a88",
+        "status" : "broken",
+        "time" : {
+          "start" : 1754314781209,
+          "stop" : 1754314784156,
+          "duration" : 2947
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "firefox-140.0.4" ]
+      } ],
+      "uid" : "db8a6ee7d0df89544972d18e66ca3a88"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ],
+  "name" : "categories"
+}
