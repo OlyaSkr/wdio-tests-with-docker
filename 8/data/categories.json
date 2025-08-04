@@ -6,21 +6,42 @@
       "name" : "expect(received).toContain(expected) // indexOf\n\nExpected substring: \"Submit a request – Plivo support\"\nReceived string:    \"Just a moment...\"",
       "children" : [ {
         "name" : "Verify footer logo link",
-        "uid" : "142c35249f933f8d",
+        "uid" : "a84ebfdf812eed27",
         "parentUid" : "562cf8c79af62ad2061bbfab83348492",
         "status" : "failed",
         "time" : {
-          "start" : 1754317017535,
-          "stop" : 1754317029456,
-          "duration" : 11921
+          "start" : 1754318648012,
+          "stop" : 1754318662884,
+          "duration" : 14872
         },
         "flaky" : true,
-        "newFailed" : true,
+        "newFailed" : false,
         "parameters" : [ "chrome-138.0.7204.157" ]
       } ],
       "uid" : "562cf8c79af62ad2061bbfab83348492"
     } ],
     "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  }, {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "element (\"//div[@class=\"dropdown_links is-usecase\"]//a[div[text()=\"Number Masking\"]]\") still not displayed after 5000ms",
+      "children" : [ {
+        "name" : "Verify Use Cases items in the Use Cases dropdown menu",
+        "uid" : "5b25b92d203d9976",
+        "parentUid" : "ea10b87fa396cf965046830940103f76",
+        "status" : "broken",
+        "time" : {
+          "start" : 1754319342114,
+          "stop" : 1754319403231,
+          "duration" : 61117
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "firefox-140.0.4" ]
+      } ],
+      "uid" : "ea10b87fa396cf965046830940103f76"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
   } ],
   "name" : "categories"
 }
