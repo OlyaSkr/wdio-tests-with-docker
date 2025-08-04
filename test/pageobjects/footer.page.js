@@ -56,20 +56,7 @@ class FooterPage {
     }
     return [];
   }
-  /*
-  async getFooterSection(sectionName) {
-    for (const section of await this.footerItems) {
-      const heading = await section.$(
-        '.footer_item-heading-wrapper .text-weight-semibold'
-      );
-      const text = await heading.getText();
-      if (text.trim() === sectionName) {
-        return section;
-      }
-    }
-    throw new Error(`Section "${sectionName}" not found in footer`);
-  }
-    */
+
   async getFooterSection(sectionName) {
     for (const section of await this.footerItems) {
       const heading = await section.$(

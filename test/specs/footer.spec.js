@@ -4,7 +4,6 @@ import footerData from '../../data/footerData.json';
 
 describe('Footer section', () => {
   beforeEach(async () => {
-    //  await browser.reloadSession();
     await browser.url('/');
     await footerPage.footerScrollIntoView();
   });

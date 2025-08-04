@@ -4,7 +4,6 @@ import talkToSalesData from '../../data/talkToSalesData.json';
 
 describe('Talk to sales page', () => {
   beforeEach(async () => {
-    //  await browser.reloadSession();
     await browser.url('/contact/sales/');
   });
 
@@ -80,7 +79,6 @@ describe('Talk to sales page', () => {
   });
 
   it('Verify What our customers say about us section', async () => {
-    await talkToSalesPage.scrollToSection();
     await talkToSalesPage.cycleSlidesNextUntilRepeat();
     await talkToSalesPage.cycleSlidesPrevUntilRepeat();
     await talkToSalesPage.validateDotsBehavior();
