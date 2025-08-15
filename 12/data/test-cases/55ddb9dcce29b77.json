@@ -1,0 +1,246 @@
+{
+  "uid" : "55ddb9dcce29b77",
+  "name" : "Verify Get started section display",
+  "historyId" : "46de6c466f0f59f995cb8ff38e90902b",
+  "time" : {
+    "start" : 1755271430414,
+    "stop" : 1755271432822,
+    "duration" : 2408
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Verify contact sales text is correct",
+      "time" : {
+        "start" : 1755271432385,
+        "stop" : 1755271432385,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "Verify headline text is correct",
+      "time" : {
+        "start" : 1755271432491,
+        "stop" : 1755271432491,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "Verify paragraph text is correct",
+      "time" : {
+        "start" : 1755271432601,
+        "stop" : 1755271432601,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "Verify hero pointers text is correct",
+      "time" : {
+        "start" : 1755271432651,
+        "stop" : 1755271432651,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "Verify form is displayed",
+      "time" : {
+        "start" : 1755271432753,
+        "stop" : 1755271432753,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 5
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "package",
+    "value" : ".app.test.specs.talkToSales.spec.js"
+  }, {
+    "name" : "thread",
+    "value" : "1-2"
+  }, {
+    "name" : "suite",
+    "value" : "Talk to sales page"
+  }, {
+    "name" : "feature",
+    "value" : "Talk to sales page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "firefox-140.0.4"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "5f594d75e2cc8aae",
+      "status" : "passed",
+      "time" : {
+        "start" : 1755271389383,
+        "stop" : 1755271391868,
+        "duration" : 2485
+      }
+    } ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 11,
+        "unknown" : 0,
+        "total" : 11
+      },
+      "items" : [ {
+        "uid" : "e8af78bbae4ab4cf",
+        "reportUrl" : "https://OlyaSkr.github.io/wdio-tests-with-docker/11//#testresult/e8af78bbae4ab4cf",
+        "status" : "passed",
+        "time" : {
+          "start" : 1755269669191,
+          "stop" : 1755269671045,
+          "duration" : 1854
+        }
+      }, {
+        "uid" : "843e0e925cad286d",
+        "reportUrl" : "https://OlyaSkr.github.io/wdio-tests-with-docker/10//#testresult/843e0e925cad286d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1755266810371,
+          "stop" : 1755266812581,
+          "duration" : 2210
+        }
+      }, {
+        "uid" : "485fddf9eb049bd0",
+        "reportUrl" : "https://OlyaSkr.github.io/wdio-tests-with-docker/9//#testresult/485fddf9eb049bd0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1754921963548,
+          "stop" : 1754921964963,
+          "duration" : 1415
+        }
+      }, {
+        "uid" : "b53d87b1a6cdf6cc",
+        "reportUrl" : "https://OlyaSkr.github.io/wdio-tests-with-docker/8//#testresult/b53d87b1a6cdf6cc",
+        "status" : "passed",
+        "time" : {
+          "start" : 1754575980076,
+          "stop" : 1754575983136,
+          "duration" : 3060
+        }
+      }, {
+        "uid" : "a266cd8f6b2439d9",
+        "reportUrl" : "https://OlyaSkr.github.io/wdio-tests-with-docker/8//#testresult/a266cd8f6b2439d9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1754321868482,
+          "stop" : 1754321869867,
+          "duration" : 1385
+        }
+      }, {
+        "uid" : "75fd617fd230dbb8",
+        "reportUrl" : "https://OlyaSkr.github.io/wdio-tests-with-docker/8//#testresult/75fd617fd230dbb8",
+        "status" : "passed",
+        "time" : {
+          "start" : 1754319557170,
+          "stop" : 1754319558682,
+          "duration" : 1512
+        }
+      }, {
+        "uid" : "d315fd21c7077d8c",
+        "reportUrl" : "https://OlyaSkr.github.io/wdio-tests-with-docker/8//#testresult/d315fd21c7077d8c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1754317802816,
+          "stop" : 1754317804833,
+          "duration" : 2017
+        }
+      }, {
+        "uid" : "3aad1a525f9a6021",
+        "reportUrl" : "https://OlyaSkr.github.io/wdio-tests-with-docker/8//#testresult/3aad1a525f9a6021",
+        "status" : "passed",
+        "time" : {
+          "start" : 1754316457320,
+          "stop" : 1754316458645,
+          "duration" : 1325
+        }
+      }, {
+        "uid" : "754c68f3aef2a7c",
+        "reportUrl" : "https://OlyaSkr.github.io/wdio-tests-with-docker/7//#testresult/754c68f3aef2a7c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1754314772035,
+          "stop" : 1754314775113,
+          "duration" : 3078
+        }
+      }, {
+        "uid" : "b05a79ed90df2fa7",
+        "reportUrl" : "https://OlyaSkr.github.io/wdio-tests-with-docker/6//#testresult/b05a79ed90df2fa7",
+        "status" : "passed",
+        "time" : {
+          "start" : 1753889625340,
+          "stop" : 1753889626810,
+          "duration" : 1470
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "55ddb9dcce29b77.json",
+  "parameterValues" : [ "firefox-140.0.4" ]
+}

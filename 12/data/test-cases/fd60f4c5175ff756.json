@@ -1,0 +1,213 @@
+{
+  "uid" : "fd60f4c5175ff756",
+  "name" : "Verify marquee logos and movement",
+  "historyId" : "ead20c429881b8b76e6e034e38093b84",
+  "time" : {
+    "start" : 1755271432823,
+    "stop" : 1755271435020,
+    "duration" : 2197
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Verify IBM logo is present in the DOM",
+      "time" : {
+        "start" : 1755271433355,
+        "stop" : 1755271433355,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "Verify Deckers logo is present in the DOM",
+      "time" : {
+        "start" : 1755271433466,
+        "stop" : 1755271433466,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "Verify Zomato logo is present in the DOM",
+      "time" : {
+        "start" : 1755271433624,
+        "stop" : 1755271433624,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "Verify Ninja Van logo is present in the DOM",
+      "time" : {
+        "start" : 1755271433930,
+        "stop" : 1755271433930,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "Verify Splunk logo is present in the DOM",
+      "time" : {
+        "start" : 1755271433944,
+        "stop" : 1755271433944,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "Verify Nutanix logo is present in the DOM",
+      "time" : {
+        "start" : 1755271433977,
+        "stop" : 1755271433977,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "Verify marquee is moving by checking transform changes",
+      "time" : {
+        "start" : 1755271433995,
+        "stop" : 1755271433995,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 7
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "package",
+    "value" : ".app.test.specs.talkToSales.spec.js"
+  }, {
+    "name" : "thread",
+    "value" : "1-2"
+  }, {
+    "name" : "suite",
+    "value" : "Talk to sales page"
+  }, {
+    "name" : "feature",
+    "value" : "Talk to sales page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "firefox-140.0.4"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "1390b2d45096e2b9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1755271391869,
+        "stop" : 1755271393674,
+        "duration" : 1805
+      }
+    } ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 4,
+        "unknown" : 0,
+        "total" : 4
+      },
+      "items" : [ {
+        "uid" : "dc2a4fed50277f3b",
+        "reportUrl" : "https://OlyaSkr.github.io/wdio-tests-with-docker/11//#testresult/dc2a4fed50277f3b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1755269671047,
+          "stop" : 1755269673001,
+          "duration" : 1954
+        }
+      }, {
+        "uid" : "4b09880f6ca5a761",
+        "reportUrl" : "https://OlyaSkr.github.io/wdio-tests-with-docker/10//#testresult/4b09880f6ca5a761",
+        "status" : "passed",
+        "time" : {
+          "start" : 1755266812582,
+          "stop" : 1755266814342,
+          "duration" : 1760
+        }
+      }, {
+        "uid" : "d1dc0211c4dbeb2c",
+        "reportUrl" : "https://OlyaSkr.github.io/wdio-tests-with-docker/9//#testresult/d1dc0211c4dbeb2c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1754921964963,
+          "stop" : 1754921966873,
+          "duration" : 1910
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "fd60f4c5175ff756.json",
+  "parameterValues" : [ "firefox-140.0.4" ]
+}
