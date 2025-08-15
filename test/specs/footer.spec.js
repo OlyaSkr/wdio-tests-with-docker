@@ -240,6 +240,9 @@ describe('Footer section', () => {
       await updatedLinks[i].scrollIntoView();
       await updatedLinks[i].click();
 
+      await footerPage.waitForTitle(expectedTitles[i]);
+      await footerPage.waitForUrl(expectedUrls[i]);
+
       const actualTitle = await footerPage.getCurrentPageTitle();
       const currentUrl = await footerPage.getCurrentUrl();
 
@@ -320,6 +323,8 @@ describe('Footer section', () => {
       const updatedLinks = await footerPage.footerNavLinks;
       await updatedLinks[i].scrollIntoView();
       await updatedLinks[i].click();
+
+      await footerPage.waitForTitle(expectedTitles[i]);
 
       const actualTitle = await footerPage.getCurrentPageTitle();
       await expect(actualTitle).toContain(expectedTitles[i]);

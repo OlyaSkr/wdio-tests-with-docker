@@ -4,7 +4,7 @@ class FooterPage {
   get footer() {
     return $('.footer_v2');
   }
- 
+
   get sectionTitles() {
     return $$('div.uui-footer06_link-list-3>div:not(.hide)');
   }
@@ -54,11 +54,11 @@ class FooterPage {
     }
     return [];
   }
-  
+
   async getFooterSection(sectionName) {
     for (const section of await this.footerItems) {
       const heading = await section.$(
-        '.text-size-regular-2.text-color-white.mb-1' 
+        '.text-size-regular-2.text-color-white.mb-1'
       );
 
       if (heading && (await heading.isExisting())) {
@@ -79,9 +79,7 @@ class FooterPage {
   async getLinksInFooterSection(sectionName) {
     const section = await this.getFooterSection(sectionName);
     await section.waitForDisplayed({ timeout: 10000 });
-    return await section.$$(
-      './/a[not(contains(@class, "hide"))]' 
-    );
+    return await section.$$('.//a[not(contains(@class, "hide"))]');
   }
 
   async getCurrentPageTitle() {
@@ -90,6 +88,26 @@ class FooterPage {
 
   async getCurrentUrl() {
     return await browser.getUrl();
+  }
+
+  async waitForTitle(expectedTitle, timeout = 20000) {
+    await browser.waitUntil(
+      async () => (await this.getCurrentPageTitle()).includes(expectedTitle),
+      {
+        timeout,
+        timeoutMsg: `Expected title to contain "${expectedTitle}" after ${timeout}ms`,
+      }
+    );
+  }
+
+  async waitForUrl(expectedUrl, timeout = 20000) {
+    await browser.waitUntil(
+      async () => (await this.getCurrentUrl()).includes(expectedUrl),
+      {
+        timeout,
+        timeoutMsg: `Expected URL to contain "${expectedUrl}" after ${timeout}ms`,
+      }
+    );
   }
 }
 
