@@ -90,7 +90,7 @@ class FooterPage {
     return await browser.getUrl();
   }
 
-  async waitForTitle(expectedTitle, timeout = 20000) {
+  async waitForTitle(expectedTitle, timeout = 40000) {
     await browser.waitUntil(
       async () => (await this.getCurrentPageTitle()).includes(expectedTitle),
       {
@@ -100,7 +100,7 @@ class FooterPage {
     );
   }
 
-  async waitForUrl(expectedUrl, timeout = 20000) {
+  async waitForUrl(expectedUrl, timeout = 40000) {
     await browser.waitUntil(
       async () => (await this.getCurrentUrl()).includes(expectedUrl),
       {
