@@ -1,0 +1,43 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "Expected title to contain \"Plivo support\" after 20000ms",
+      "children" : [ {
+        "name" : "Should open each link in Resources section",
+        "uid" : "becb71c8c303dafe",
+        "parentUid" : "3f2a3bcbbde7ed22e024dd5418998fd3",
+        "status" : "failed",
+        "time" : {
+          "start" : 1755268755461,
+          "stop" : 1755268857133,
+          "duration" : 101672
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "chrome-138.0.7204.157" ]
+      } ],
+      "uid" : "3f2a3bcbbde7ed22e024dd5418998fd3"
+    }, {
+      "name" : "Expected title to contain \"Submit a request – Plivo support\" after 20000ms",
+      "children" : [ {
+        "name" : "Verify footer nav links in About page",
+        "uid" : "77a5863f25f7a4f5",
+        "parentUid" : "357ac952bdb513188e19c8fe84129dd3",
+        "status" : "failed",
+        "time" : {
+          "start" : 1755268832286,
+          "stop" : 1755268857133,
+          "duration" : 24847
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "chrome-138.0.7204.157" ]
+      } ],
+      "uid" : "357ac952bdb513188e19c8fe84129dd3"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ],
+  "name" : "categories"
+}
