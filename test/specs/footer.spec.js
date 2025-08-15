@@ -11,7 +11,7 @@ describe('Footer section', () => {
 
   it('Verify section titles ', async () => {
     allureReporter.addDescription(
-      'Verifies that the footer contains expected section titles like Products, Use Cases, etc.'
+      'Verifies that the footer contains expected section titles'
     );
 
     allureReporter.startStep('Get section titles');
@@ -26,59 +26,61 @@ describe('Footer section', () => {
     allureReporter.endStep();
   });
 
-  it('Verify item titles in Products section ', async () => {
+  it('Verify item titles in AI Agent Platform section ', async () => {
     allureReporter.addDescription(
-      'Verifies item titles in the Products section of the footer'
+      'Verifies item titles in the AI Agent Platform section of the footer'
     );
 
-    allureReporter.startStep('Get product items titles');
-    const productItemsTitles = await footerPage.getTitlesInFooterItems(
+    allureReporter.startStep('Get ai agent platform items titles');
+    const aiAgentPlatformItemsTitles = await footerPage.getTitlesInFooterItems(
       footerData.expectedFooterSectionTitles[0]
     );
     allureReporter.endStep();
 
-    allureReporter.startStep('Compare with expected product items titles');
-    const expectedProductItemsTitles = footerData.productsItemsTitles;
-    expectedProductItemsTitles.forEach((title) => {
-      expect(productItemsTitles).toContain(title);
+    allureReporter.startStep(
+      'Compare with expected AI Agent Platform items titles'
+    );
+    const expectedAiAgentPlatform = footerData.aiAgentPlatformItemsTitles;
+    expectedAiAgentPlatform.forEach((title) => {
+      expect(aiAgentPlatformItemsTitles).toContain(title);
     });
     allureReporter.endStep();
   });
 
-  it('Verify item titles in Use Cases section ', async () => {
+  it('Verify item titles in Channels section ', async () => {
     allureReporter.addDescription(
-      'Verifies item titles in the Use Cases section of the footer'
+      'Verifies item titles in the Channels section of the footer'
     );
 
-    allureReporter.startStep('Get use cases items titles');
-    const useCasesItemsTitles = await footerPage.getTitlesInFooterItems(
+    allureReporter.startStep('Get channels items titles');
+    const channelsItemsTitles = await footerPage.getTitlesInFooterItems(
       footerData.expectedFooterSectionTitles[1]
     );
     allureReporter.endStep();
 
-    allureReporter.startStep('Compare with expected use cases items titles');
-    const expectedUseCasesItemsTitles = footerData.useCasesItemsTitles;
-    expectedUseCasesItemsTitles.forEach((title) => {
-      expect(useCasesItemsTitles).toContain(title);
+    allureReporter.startStep('Compare with expected channels items titles');
+    const expectedChannelsItemsTitles = footerData.channelsItemsTitles;
+    expectedChannelsItemsTitles.forEach((title) => {
+      expect(channelsItemsTitles).toContain(title);
     });
     allureReporter.endStep();
   });
 
-  it('Verify item titles in Developers section ', async () => {
+  it('Verify item titles in API Platform section ', async () => {
     allureReporter.addDescription(
-      'Verifies item titles in the Developers section of the footer'
+      'Verifies item titles in the API Platform section of the footer'
     );
 
-    allureReporter.startStep('Get developers items titles');
-    const developersItemsTitles = await footerPage.getTitlesInFooterItems(
+    allureReporter.startStep('Get API platform items titles');
+    const apiPlatformItemsTitles = await footerPage.getTitlesInFooterItems(
       footerData.expectedFooterSectionTitles[2]
     );
     allureReporter.endStep();
 
-    allureReporter.startStep('Compare with expected developers items titles');
-    const expectedDevelopersItemsTitles = footerData.developersItemsTitles;
-    expectedDevelopersItemsTitles.forEach((title) => {
-      expect(developersItemsTitles).toContain(title);
+    allureReporter.startStep('Compare with expected API platform items titles');
+    const expectedApiPlatformItemsTitles = footerData.apiPlatformItemsTitles;
+    expectedApiPlatformItemsTitles.forEach((title) => {
+      expect(apiPlatformItemsTitles).toContain(title);
     });
     allureReporter.endStep();
   });
@@ -121,85 +123,99 @@ describe('Footer section', () => {
     allureReporter.endStep();
   });
 
-  it('Should open each link in Products section', async () => {
+  it('Should open each link in Ai Agent Platform section', async () => {
     allureReporter.addDescription(
-      'Verifies that each link in the Products section opens the expected page'
+      'Verifies that each link in the Ai Agent Platform section opens the expected page'
     );
 
-    const section = footerData.expectedFooterSectionTitles[0];
-    const expectedTitles = footerData.producstLinkTitles;
-    const expectedUrls = footerData.producstLinkEndpoints;
-    const productLinks = await footerPage.getLinksInFooterSection(section);
-
-    for (let i = 0; i < productLinks.length; i++) {
-      allureReporter.startStep(
-        `Click link ${i + 1} in Products section and verify`
-      );
-      await footerPage.clickLinkInFooterSection(section, i);
-
-      const actualTitle = await footerPage.getCurrentPageTitle();
-      const currentUrl = await footerPage.getCurrentUrl();
-
-      await expect(actualTitle).toContain(expectedTitles[i]);
-      await expect(currentUrl).toContain(expectedUrls[i]);
-
-      await footerPage.footerScrollIntoView();
-      allureReporter.endStep();
-    }
-  });
-
-  it('Should open each link in Use Cases section', async () => {
-    allureReporter.addDescription(
-      'Verifies that each link in the Use Cases section opens the expected page'
-    );
-
-    const useCaseSection = footerData.expectedFooterSectionTitles[1];
-    const expectedTitles = footerData.useCasesLinkTitles;
-    const expectedUrls = footerData.useCasesLinkEndpoints;
-    const useCasesLinks = await footerPage.getLinksInFooterSection(
-      useCaseSection
-    );
-
-    for (let i = 0; i < useCasesLinks.length; i++) {
-      allureReporter.startStep(
-        `Click link ${i + 1} in Use Cases section and verify`
-      );
-      await footerPage.clickLinkInFooterSection(useCaseSection, i);
-
-      const actualTitle = await footerPage.getCurrentPageTitle();
-      const currentUrl = await footerPage.getCurrentUrl();
-
-      await expect(actualTitle).toContain(expectedTitles[i]);
-      await expect(currentUrl).toContain(expectedUrls[i]);
-
-      await footerPage.footerScrollIntoView();
-      allureReporter.endStep();
-    }
-  });
-
-  it('Should open each link in Developers section', async () => {
-    allureReporter.addDescription(
-      'Verifies that each link in the Developers section opens the expected page'
-    );
-
-    const developersSection = footerData.expectedFooterSectionTitles[2];
-    const expectedTitles = footerData.developersLinkTitles;
+    const aiAgentPlatformsection = footerData.expectedFooterSectionTitles[0];
+    const expectedTitles = footerData.aiAgentPlatformLinkTitles;
+    const expectedUrls = footerData.aiAgentPlatformLinkEndpoints;
 
     for (let i = 0; i < expectedTitles.length; i++) {
       allureReporter.startStep(
-        `Click link ${i + 1} in Developers section and verify`
-      );
-      const updatedLinks = await footerPage.getLinksInFooterSection(
-        developersSection
+        `Click link ${i + 1} in Ai Agent Platform section and verify`
       );
 
-      await updatedLinks[i].waitForDisplayed({ timeout: 5000 });
+      const updatedLinks = await footerPage.getLinksInFooterSection(
+        aiAgentPlatformsection
+      );
+
+      await updatedLinks[i].scrollIntoView();
       await updatedLinks[i].click();
 
       const actualTitle = await footerPage.getCurrentPageTitle();
+      const currentUrl = await footerPage.getCurrentUrl();
+
       await expect(actualTitle).toContain(expectedTitles[i]);
+      await expect(currentUrl).toContain(expectedUrls[i]);
 
       await browser.url('/');
+      await footerPage.footerScrollIntoView();
+      allureReporter.endStep();
+    }
+  });
+
+  it('Should open each link in Channels section', async () => {
+    allureReporter.addDescription(
+      'Verifies that each link in the Channels section opens the expected page'
+    );
+
+    const channelsSection = footerData.expectedFooterSectionTitles[1];
+    const expectedTitles = footerData.channelsLinkTitles;
+    const expectedUrls = footerData.channelsLinkEndpoints;
+
+    for (let i = 0; i < expectedTitles.length; i++) {
+      allureReporter.startStep(
+        `Click link ${i + 1} in Channels section and verify`
+      );
+      const updatedLinks = await footerPage.getLinksInFooterSection(
+        channelsSection
+      );
+
+      await updatedLinks[i].scrollIntoView();
+      await updatedLinks[i].click();
+
+      const actualTitle = await footerPage.getCurrentPageTitle();
+      const currentUrl = await footerPage.getCurrentUrl();
+
+      await expect(actualTitle).toContain(expectedTitles[i]);
+      await expect(currentUrl).toContain(expectedUrls[i]);
+
+      await browser.url('/');
+      await footerPage.footerScrollIntoView();
+      allureReporter.endStep();
+    }
+  });
+
+  it('Should open each link in API Platform section', async () => {
+    allureReporter.addDescription(
+      'Verifies that each link in the API Platform section opens the expected page'
+    );
+
+    const apiPlatformSection = footerData.expectedFooterSectionTitles[2];
+    const expectedTitles = footerData.apiPlatformLinkTitles;
+    const expectedUrls = footerData.apiPlatformLinkEndpoints;
+
+    for (let i = 0; i < expectedTitles.length; i++) {
+      allureReporter.startStep(
+        `Click link ${i + 1} in API Platform section and verify`
+      );
+      const updatedLinks = await footerPage.getLinksInFooterSection(
+        apiPlatformSection
+      );
+
+      await updatedLinks[i].scrollIntoView();
+      await updatedLinks[i].click();
+
+      const actualTitle = await footerPage.getCurrentPageTitle();
+      const currentUrl = await footerPage.getCurrentUrl();
+
+      await expect(actualTitle).toContain(expectedTitles[i]);
+      await expect(currentUrl).toContain(expectedUrls[i]);
+
+      await browser.url('/');
+      await footerPage.footerScrollIntoView();
       allureReporter.endStep();
     }
   });
@@ -212,15 +228,17 @@ describe('Footer section', () => {
     const resourcesSection = footerData.expectedFooterSectionTitles[3];
     const expectedTitles = footerData.resourcesLinkTitles;
     const expectedUrls = footerData.resourcesLinkEndpoints;
-    const resourcesLinks = await footerPage.getLinksInFooterSection(
-      resourcesSection
-    );
 
-    for (let i = 0; i < resourcesLinks.length; i++) {
+    for (let i = 0; i < expectedTitles.length; i++) {
       allureReporter.startStep(
         `Click link ${i + 1} in Resources section and verify`
       );
-      await footerPage.clickLinkInFooterSection(resourcesSection, i);
+      const updatedLinks = await footerPage.getLinksInFooterSection(
+        resourcesSection
+      );
+
+      await updatedLinks[i].scrollIntoView();
+      await updatedLinks[i].click();
 
       const actualTitle = await footerPage.getCurrentPageTitle();
       const currentUrl = await footerPage.getCurrentUrl();
@@ -228,6 +246,7 @@ describe('Footer section', () => {
       await expect(actualTitle).toContain(expectedTitles[i]);
       await expect(currentUrl).toContain(expectedUrls[i]);
 
+      await browser.url('/');
       await footerPage.footerScrollIntoView();
       allureReporter.endStep();
     }
@@ -241,15 +260,17 @@ describe('Footer section', () => {
     const companySection = footerData.expectedFooterSectionTitles[4];
     const expectedTitles = footerData.companyLinkTitles;
     const expectedUrls = footerData.companyLinkEndpoints;
-    const companyLinks = await footerPage.getLinksInFooterSection(
-      companySection
-    );
 
-    for (let i = 0; i < companyLinks.length; i++) {
+    for (let i = 0; i < expectedTitles.length; i++) {
       allureReporter.startStep(
         `Click link ${i + 1} in Company section and verify`
       );
-      await footerPage.clickLinkInFooterSection(companySection, i);
+      const updatedLinks = await footerPage.getLinksInFooterSection(
+        companySection
+      );
+
+      await updatedLinks[i].scrollIntoView();
+      await updatedLinks[i].click();
 
       const actualTitle = await footerPage.getCurrentPageTitle();
       const currentUrl = await footerPage.getCurrentUrl();
@@ -257,6 +278,7 @@ describe('Footer section', () => {
       await expect(actualTitle).toContain(expectedTitles[i]);
       await expect(currentUrl).toContain(expectedUrls[i]);
 
+      await browser.url('/');
       await footerPage.footerScrollIntoView();
       allureReporter.endStep();
     }
@@ -268,6 +290,7 @@ describe('Footer section', () => {
     );
 
     allureReporter.startStep('Click on footer logo link');
+    await footerPage.footerScrollIntoView();
     await footerPage.footerLogoLink.click();
     allureReporter.endStep();
 
@@ -282,25 +305,26 @@ describe('Footer section', () => {
     allureReporter.endStep();
   });
 
-  it('Verify footer nav links', async () => {
+  it('Verify footer nav links in About page', async () => {
     allureReporter.addDescription(
       'Verifies that footer navigation links open expected pages'
     );
 
     const expectedTitles = footerData.footerNavLinksTitle;
-    const footerNavLinks = await footerPage.footerNavLinks;
 
-    for (let i = 0; i < footerNavLinks.length; i++) {
+    await browser.url('about/');
+
+    for (let i = 0; i < expectedTitles.length; i++) {
       allureReporter.startStep(`Click footer nav link ${i + 1} and verify`);
 
       const updatedLinks = await footerPage.footerNavLinks;
-      await updatedLinks[i].waitForDisplayed({ timeout: 5000 });
+      await updatedLinks[i].scrollIntoView();
       await updatedLinks[i].click();
 
       const actualTitle = await footerPage.getCurrentPageTitle();
       await expect(actualTitle).toContain(expectedTitles[i]);
 
-      await browser.url('/');
+      await browser.url('about/');
       allureReporter.endStep();
     }
   });

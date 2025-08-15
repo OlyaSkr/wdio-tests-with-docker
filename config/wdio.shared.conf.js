@@ -22,7 +22,7 @@ export const config = {
   ],
   logLevel: 'info',
   baseUrl: 'https://www.plivo.com/',
-  waitforTimeout: 10000,
+  waitforTimeout: 20000,
   connectionRetryTimeout: 120000,
   connectionRetryCount: 3,
   framework: 'mocha',

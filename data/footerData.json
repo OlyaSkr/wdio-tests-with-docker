@@ -1,20 +1,16 @@
 {
   "expectedFooterSectionTitles": [
-    "Products",
-    "Use Cases",
-    "Developers",
+    "AI Agent Platform",
+    "Channels",
+    "API Platform",
     "Resources",
     "Company"
   ],
-  "productsItemsTitles": [
-    "SMS",
-    "Voice",
-    "WhatsApp",
-    "Chat",
-    "RCS",
-    "Verify API",
-    "Phone Numbers"
+  "aiAgentPlatformItemsTitles": [
+    "Vibe Agent Builder",
+    "Personalize your Agent"
   ],
+  "channelsItemsTitles": ["SMS", "WhatsApp", "Voice", "Chat", "RCS"],
   "useCasesItemsTitles": [
     "Healthcare",
     "Hospitality",
@@ -22,103 +18,95 @@
     "Finance",
     "Retail"
   ],
-  "developersItemsTitles": [
-    "API Platform Login",
+  "apiPlatformItemsTitles": [
+    "API Login",
     "Documentation",
-    "Knowledge Base",
-    "Server SDKs",
-    "Client SDKs",
-    "Full API Reference",
-    "Product Updates",
-    "API Platform Pricing"
+    "Platform Status",
+    "Twilio Alternative",
+    "API Reference"
   ],
   "resourcesItemsTitles": [
-    "Content Library",
     "Blog",
     "Guides",
-    "Twilio Alternative",
+    "Knowledge Base",
     "Pricing",
-    "Support Plans",
-    "Glossary"
+    "Get Support",
+    "Support Plans"
   ],
-  "companyItemsTitles": ["About", "Customers", "Careers"],
-  "producstLinkTitles": [
+  "companyItemsTitles": [
+    "About",
+    "Customers",
+    "Careers",
+    "Talk to Sales",
+    "Legal",
+    "Security"
+  ],
+  "aiAgentPlatformLinkTitles": [
+    "Build AI Agents in Minutes - No Code Required | Plivo",
+    "Brand-Aligned AI Agents for Customer Engagement | Plivo"
+  ],
+  "aiAgentPlatformLinkEndpoints": ["/platform/", "/personalized-agents"],
+  "channelsLinkTitles": [
     "SMS Platform for Verification and Customer Engagement | Plivo",
-    "Programmable Voice API | 2FA, IVR, Click-to-call and More",
     "Plivo WhatsApp AI Agents | Automate Customer Conversations & Engagement",
+    "Programmable Voice API | 2FA, IVR, Click-to-call and More",
     "AI Chat for B2C Brands | 24/7 Support | Instant Query Resolutions",
-    "Rich Business Messaging for Interactive Customer Engagement | Plivo",
-    "Verify API - SMS and Voice OTP Verification",
-    "Virtual phone numbers — Local, mobile, and toll-free numbers | Plivo"
+    "Rich Business Messaging for Interactive Customer Engagement | Plivo"
   ],
-  "producstLinkEndpoints": [
+  "channelsLinkEndpoints": [
     "/sms/overview/",
-    "/voice/",
     "/whatsapp/overview-ai-agents/",
+    "/voice/",
     "/chat/overview/",
-    "/rcs/",
-    "/verify/",
-    "/virtual-phone-numbers/"
+    "/rcs/"
   ],
-  "useCasesLinkTitles": [
-    "Voice and Messaging API Solutions for Healthcare Communication",
-    "Hospitality & Travel Communication APIs | Plivo",
-    "Voice and Messaging API Solutions for Government Messages",
-    "Voice and SMS API for banking and financial services",
-    "Retail and E-commerce Communication APIs | Plivo"
-  ],
-  "useCasesLinkEndpoints": [
-    "/healthcare-api/",
-    "/hospitality-travel/",
-    "/government/",
-    "/financial-services-api/",
-    "/retail-api/"
-  ],
-  "developersLinkTitles": [
+  "apiPlatformLinkTitles": [
     "Login | Plivo Console",
     "Get Started with PHP - Plivo",
-    "Plivo support",
-    "PHP SDK - Plivo",
-    "Plivo Browser SDK - Plivo",
-    "Get Started with PHP - Plivo",
-    "API - Product updates",
-    "Competitive pay-as-you-go pricing with volume discounts at scale | Plivo"
+    "Plivo Status",
+    "Twilio Alternative | The best alternative to Twilio API | Plivo",
+    "Get Started with PHP - Plivo"
   ],
-  "developersLinkEndpoints": [
+  "apiPlatformLinkEndpoints": [
     "/accounts/login/",
-    "/docs/",
-    "/hc/",
-    "/sdk/server/php-sdk/",
-    "/client/browser/overview/",
-    "/reference/",
-    "/changelog/",
-    "/pricing-api-platform/"
+    "/docs/messaging/quickstart/",
+    "/status.plivo.com/",
+    "/twilio-alternative/",
+    "/docs/messaging/quickstart/"
   ],
 
   "resourcesLinkTitles": [
-    "Guides, Ebooks, and Other Resources | Plivo Content Library",
     "Plivo Blog | News, Industry Trends and Analysis, and Best Practices by the Plivo Team",
     "Plivo Blog | News, Industry Trends and Analysis, and Best Practices by the Plivo Team",
-    "Twilio Alternative | The best alternative to Twilio API | Plivo",
+    "Plivo support",
     "Transparent Pay-As-You-Go Pricing | AI Agent Platform for Customer Engagement | Plivo",
-    "Premium Support Plans | Plivo",
-    "Glossary | Plivo"
+    "Submit a request – Plivo support",
+    "Premium Support Plans | Plivo"
   ],
   "resourcesLinkEndpoints": [
-    "/resources/",
     "/blog/",
     "/guide/",
-    "/twilio-alternative/",
+    "/hc/",
     "/pricing/",
-    "/support-plans/",
-    "/glossary/"
+    "/hc/",
+    "/support-plans/"
   ],
   "companyLinkTitles": [
     "Our Mission, Platform, and Team | Plivo",
     "Customer Stories | Plivo",
-    "Jobs | Plivo"
+    "Jobs | Plivo",
+    "Get Volume Pricing | Plivo",
+    "Terms and Conditions | Plivo",
+    "Security for Cloud Communications | Plivo"
   ],
-  "companyLinkEndpoints": ["/about/", "/customers/", "/jobs/"],
+  "companyLinkEndpoints": [
+    "/about/",
+    "/customers/",
+    "/jobs/",
+    "/contact/sales/",
+    "/legal/tos/",
+    "/security/"
+  ],
   "footerLogoLinkTitle": "Communication Platform for SMS APIs, Voice APIs, and SIP Trunking",
   "footerLogoLinkUrl": "/api-platform/",
   "footerNavLinksTitle": [
