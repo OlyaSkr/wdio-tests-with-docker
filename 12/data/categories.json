@@ -3,16 +3,46 @@
   "children" : [ {
     "name" : "Product defects",
     "children" : [ {
+      "name" : "expect(received).toContain(expected) // indexOf\n\nExpected substring: \"Build AI Agents in Minutes - No Code Required | Plivo\"\nReceived string:    \"AI Agents\"",
+      "children" : [ {
+        "name" : "Should open each link in Ai Agent Platform section",
+        "uid" : "1ca049ca274da7f2",
+        "parentUid" : "c1c7877325a499eec9d452e833745960",
+        "status" : "failed",
+        "time" : {
+          "start" : 1755589654798,
+          "stop" : 1755589862568,
+          "duration" : 207770
+        },
+        "flaky" : false,
+        "newFailed" : true,
+        "parameters" : [ "chrome-138.0.7204.157" ]
+      }, {
+        "name" : "Should open each link in Ai Agent Platform section",
+        "uid" : "a43255f93706f75",
+        "parentUid" : "c1c7877325a499eec9d452e833745960",
+        "status" : "failed",
+        "time" : {
+          "start" : 1755590292174,
+          "stop" : 1755590381354,
+          "duration" : 89180
+        },
+        "flaky" : false,
+        "newFailed" : true,
+        "parameters" : [ "firefox-140.0.4" ]
+      } ],
+      "uid" : "c1c7877325a499eec9d452e833745960"
+    }, {
       "name" : "Expected title to contain \"Plivo support\" after 40000ms",
       "children" : [ {
         "name" : "Should open each link in Resources section",
-        "uid" : "1b168371d5f5c700",
+        "uid" : "ef1fdf7bc844e6c4",
         "parentUid" : "c6613b5979c8700e450c9b317b280075",
         "status" : "failed",
         "time" : {
-          "start" : 1755272347074,
-          "stop" : 1755272493144,
-          "duration" : 146070
+          "start" : 1755589719348,
+          "stop" : 1755589862568,
+          "duration" : 143220
         },
         "flaky" : false,
         "newFailed" : false,
@@ -23,13 +53,13 @@
       "name" : "Expected title to contain \"Submit a request – Plivo support\" after 40000ms",
       "children" : [ {
         "name" : "Verify footer nav links in About page",
-        "uid" : "bfaee2680d3e6a47",
+        "uid" : "b0191ee4b228947e",
         "parentUid" : "312b5b72428bcfef8a0ddaad20d928e5",
         "status" : "failed",
         "time" : {
-          "start" : 1755272447863,
-          "stop" : 1755272493143,
-          "duration" : 45280
+          "start" : 1755589817631,
+          "stop" : 1755589862567,
+          "duration" : 44936
         },
         "flaky" : false,
         "newFailed" : false,
