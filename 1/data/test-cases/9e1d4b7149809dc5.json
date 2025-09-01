@@ -1,0 +1,263 @@
+{
+  "uid" : "9e1d4b7149809dc5",
+  "name" : "Verify items in the Platform dropdown menu",
+  "historyId" : "51391c270a8057bd64cee6111149fc23",
+  "time" : {
+    "start" : 1756743350728,
+    "stop" : 1756743364877,
+    "duration" : 14149
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "time" : { },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "\"before each\" hook for Header Navigation",
+      "time" : {
+        "start" : 1756743346141,
+        "stop" : 1756743349870,
+        "duration" : 3729
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  }, {
+    "time" : { },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "\"before each\" hook for Header Navigation",
+      "time" : {
+        "start" : 1756743350728,
+        "stop" : 1756743355623,
+        "duration" : 4895
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  }, {
+    "time" : { },
+    "status" : "broken",
+    "statusMessage" : "Timeout",
+    "statusTrace" : "Error: Timeout\n    at listOnTimeout (node:internal/timers:569:17)\n    at process.processTimers (node:internal/timers:512:7)",
+    "steps" : [ {
+      "name" : "\"before each\" hook for Header Navigation",
+      "time" : {
+        "start" : 1756743365092,
+        "stop" : 1756743425130,
+        "duration" : 60038
+      },
+      "status" : "broken",
+      "statusMessage" : "Timeout",
+      "statusTrace" : "Error: Timeout\n    at listOnTimeout (node:internal/timers:569:17)\n    at process.processTimers (node:internal/timers:512:7)",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : true,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Click link 1 in Platform section and verify",
+      "time" : {
+        "start" : 1756743355623,
+        "stop" : 1756743359550,
+        "duration" : 3927
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Click link 2 in Platform section and verify",
+      "time" : {
+        "start" : 1756743359550,
+        "stop" : 1756743362288,
+        "duration" : 2738
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Click link 3 in Platform section and verify",
+      "time" : {
+        "start" : 1756743362288,
+        "stop" : 1756743364876,
+        "duration" : 2588
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 3,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "time" : { },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "\"after each\" hook for Header Navigation",
+      "time" : {
+        "start" : 1756743350485,
+        "stop" : 1756743350728,
+        "duration" : 243
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  }, {
+    "time" : { },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "\"after each\" hook for Header Navigation",
+      "time" : {
+        "start" : 1756743364878,
+        "stop" : 1756743365092,
+        "duration" : 214
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  }, {
+    "time" : { },
+    "status" : "broken",
+    "statusMessage" : "WebDriverError: Unable to find session with ID: ba73208c-b1d6-41b7-8809-1a9aa81ff2a6\nBuild info: version: '4.34.0', revision: '2a4c61c498'\nSystem info: os.name: 'Linux', os.arch: 'amd64', os.version: '6.11.0-1018-azure', java.version: '21.0.8'\nDriver info: driver.version: unknown when running \"execute/sync\" with method \"POST\" and args \"() => {\n      localStorage.clear();\n      sessionStorage.clear();\n    }\"",
+    "statusTrace" : "invalid session id: WebDriverError: Unable to find session with ID: ba73208c-b1d6-41b7-8809-1a9aa81ff2a6\nBuild info: version: '4.34.0', revision: '2a4c61c498'\nSystem info: os.name: 'Linux', os.arch: 'amd64', os.version: '6.11.0-1018-azure', java.version: '21.0.8'\nDriver info: driver.version: unknown when running \"execute/sync\" with method \"POST\" and args \"() => {\n      localStorage.clear();\n      sessionStorage.clear();\n    }\"\n    at async Context.<anonymous> (file:///app/test/specs/header.spec.js:101:5)",
+    "steps" : [ {
+      "name" : "\"after each\" hook for Header Navigation",
+      "time" : {
+        "start" : 1756743425130,
+        "stop" : 1756743426726,
+        "duration" : 1596
+      },
+      "status" : "broken",
+      "statusMessage" : "WebDriverError: Unable to find session with ID: ba73208c-b1d6-41b7-8809-1a9aa81ff2a6\nBuild info: version: '4.34.0', revision: '2a4c61c498'\nSystem info: os.name: 'Linux', os.arch: 'amd64', os.version: '6.11.0-1018-azure', java.version: '21.0.8'\nDriver info: driver.version: unknown when running \"execute/sync\" with method \"POST\" and args \"() => {\n      localStorage.clear();\n      sessionStorage.clear();\n    }\"",
+      "statusTrace" : "invalid session id: WebDriverError: Unable to find session with ID: ba73208c-b1d6-41b7-8809-1a9aa81ff2a6\nBuild info: version: '4.34.0', revision: '2a4c61c498'\nSystem info: os.name: 'Linux', os.arch: 'amd64', os.version: '6.11.0-1018-azure', java.version: '21.0.8'\nDriver info: driver.version: unknown when running \"execute/sync\" with method \"POST\" and args \"() => {\n      localStorage.clear();\n      sessionStorage.clear();\n    }\"\n    at async Context.<anonymous> (file:///app/test/specs/header.spec.js:101:5)",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : true,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  } ],
+  "labels" : [ {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "package",
+    "value" : ".app.test.specs.header.spec.js"
+  }, {
+    "name" : "thread",
+    "value" : "1-1"
+  }, {
+    "name" : "suite",
+    "value" : "Header Navigation"
+  }, {
+    "name" : "feature",
+    "value" : "Header Navigation"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "firefox-140.0.4"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "9e1d4b7149809dc5.json",
+  "parameterValues" : [ "firefox-140.0.4" ]
+}

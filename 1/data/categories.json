@@ -1,0 +1,43 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "\"Just a moment...\" still displayed for link #3",
+      "children" : [ {
+        "name" : "Should open each link in Resources section",
+        "uid" : "5330ccfb636855c",
+        "parentUid" : "2eb0254f36207ea13eca277c716560f7",
+        "status" : "broken",
+        "time" : {
+          "start" : 1756743005047,
+          "stop" : 1756743149253,
+          "duration" : 144206
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "chrome-138.0.7204.157" ]
+      } ],
+      "uid" : "2eb0254f36207ea13eca277c716560f7"
+    }, {
+      "name" : "\"Just a moment...\" still displayed for title #2",
+      "children" : [ {
+        "name" : "Verify footer nav links in About page",
+        "uid" : "198b8c300dc6d8fc",
+        "parentUid" : "4ce55da03f8a746575fe004c732631f0",
+        "status" : "broken",
+        "time" : {
+          "start" : 1756743103901,
+          "stop" : 1756743149252,
+          "duration" : 45351
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "chrome-138.0.7204.157" ]
+      } ],
+      "uid" : "4ce55da03f8a746575fe004c732631f0"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ],
+  "name" : "categories"
+}
